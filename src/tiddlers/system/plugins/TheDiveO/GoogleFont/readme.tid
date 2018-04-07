@@ -1,0 +1,7 @@
+created: 20180407160918132
+modified: 20180407161029329
+tags: 
+title: $:/plugins/TheDiveO/GoogleFont/readme
+type: text/vnd.tiddlywiki
+
+This plugin is intended to be used by ''plugin developers'' to create new Google Font plugins for ~TiddlyWiki&nbsp;5. It is not an end-user plugin.

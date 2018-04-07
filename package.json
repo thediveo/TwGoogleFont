@@ -1,0 +1,30 @@
+{
+  "name": "tw5-googlefont",
+  "version": "0.0.1",
+  "author": "TheDivgeO",
+  "description": "TiddlyWiki (Meta) Plugin for Google Font Plugins",
+  "homepage": "...",
+  "license": "...",
+  "bugs": "...",
+  "keywords": [
+    "tiddlywiki",
+    "tiddlywiki5",
+    "wiki",
+    "plugin",
+    "ThirdFlow"
+  ],
+  "main": "main.js",
+  "scripts": {
+    "start": "tiddlywiki editions/develop --verbose --server 8080 $:/core/save/all text/plain text/html & echo $! > tw.pid",
+    "stop": "kill `cat tw.pid` && rm tw.pid",
+    "develop": "tiddlywiki editions/develop --verbose --server 8080 $:/core/save/all text/plain text/html",
+    "release": "tiddlywiki editions/release --verbose --build release"
+  },
+  "dependencies": {
+    "tiddlywiki": ">=5.1.11",
+    "tw5-thirdflow": ">=1.2.0"
+  },
+  "engines": {
+    "node": ">=0.8.2"
+  }
+}

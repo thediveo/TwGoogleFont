@@ -1,0 +1,13 @@
+author: TheDiveO
+created: 20180407160340050
+description: Meta plugin for developing Google Font TW5 plugins
+list: readme license history
+modified: 20180407160919892
+plugin-type: plugin
+source: https://github.com/TheDiveO/TwGoogleFont.git
+tags: 
+title: $:/plugins/TheDiveO/GoogleFont
+type: application/json
+version: 0.0.1
+
+{"tiddlers": {}}
