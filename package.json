@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "author": "TheDivgeO",
   "description": "TiddlyWiki (Meta) Plugin for Google Font Plugins",
-  "homepage": "...",
-  "license": "...",
-  "bugs": "...",
+  "homepage": "https://github.com/TheDiveO/TwGoogleFont",
+  "license": "(MIT)",
+  "bugs": "https://github.com/TheDiveO/TwGoogleFont/issues",
   "keywords": [
     "tiddlywiki",
     "tiddlywiki5",
@@ -21,10 +21,17 @@
     "release": "tiddlywiki editions/release --verbose --build release"
   },
   "dependencies": {
+    "css": ">=2.2.0",
+    "request": ">=2.83.0",
+    "request-promise-native": "^1.0.5",
     "tiddlywiki": ">=5.1.11",
     "tw5-thirdflow": ">=1.2.0"
   },
   "engines": {
     "node": ">=0.8.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheDiveO/TwGoogleFont.git"
   }
 }
